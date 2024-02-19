@@ -1,0 +1,72 @@
+@media screen and (max-width:600px) {
+    @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i");
+
+  
+    
+    li{
+        font-size: 16px;
+        margin-top: 10px;
+      list-style: none;  
+      font-weight: 20;
+    }
+    .header-title{
+        padding: 1em;
+    }
+    
+    header nav ul li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      list-style-type: none;
+    }
+    
+    
+    
+    .header-title h1 {
+      font-size: 35px;
+     
+    }
+    
+    .header-title p {
+      font-size: 18px;
+    }
+    
+  
+    h3 {
+      font-size: 24px;
+    }
+    
+   
+    .about-us p:nth-child(3){
+      width: 99%;
+      margin: 0 auto;
+    }
+    
+   
+    
+    .choose-us ul{
+      display: flex;
+      flex-direction: column;
+      
+      align-items: center;
+     
+    }
+    
+    .choose-us li {
+
+      width: 65%;
+      text-align: center;
+    }
+      
+    .team-description ul li img {
+      width: 140px;
+        height: 150px;
+      padding-bottom: 0.3rem;
+    }
+    .team-description-wrapper{
+        width: 55%;
+    }
+    .team-description ul li{
+        font-size: 14px;
+    }
+}

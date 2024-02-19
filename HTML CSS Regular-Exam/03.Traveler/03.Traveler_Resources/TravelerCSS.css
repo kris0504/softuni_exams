@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap);
+body{
+    margin: 0;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./images/poster.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+   color: white;
+   height: 1000px;
+   font-family: "Cormorant Infant";
+
+}
+.menu{
+    font-family:"Karla";
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 18px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+header a{
+    margin-left: 2em;
+    text-decoration: none;
+    color: white;
+}
+.logo img{
+    width: 12vh;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.head h1{
+    margin-top: 300px;
+    font-size: 90px;
+    text-align: center;
+}
+.head p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 180px;
+    padding-bottom: 100px;
+    font-family:"Karla";
+}
+.firstsection{
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
+    height: 800px;
+    background-color: #f8f0e9;
+}
+.quote{
+    font-family: "Cormorant Infant";
+    font-style: italic;
+    font-size: 60px;
+}
+.firstsection p{
+    padding-top: 50px;
+    font-family: "Karla";
+    font-size: 20px;
+    margin-top: 0;
+}
+.secondsection, .forthsection{
+    background-color: #e14747;
+    color: white;
+}
+.secondsection h5, .secondsection p{
+    margin: 0;
+    text-align: center;
+    font-family: "Karla";
+}
+.secondsection h5{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.secondsection p{
+    font-size: 18px;
+    width: 16%;
+    padding-left: 42% ;
+    padding-right: 42%;
+    padding-bottom: 50px;
+}
+.thirdsection{
+    background-color: #f8f0e9;
+    font-family: "Karla";
+    font-size: 18px;
+   
+}
+.thirdsection div{
+    width: 32%;
+    padding-left: 34%;
+    padding-right: 34%;
+}
+.thirdsection img{
+    width:100%;
+    padding-top: 50px;
+    
+}
+.thirdsection h1{
+    font-family:"Cormorant Infant" ;
+    text-align: center;
+    font-size: 80px;
+}
+.thirdsection button{
+    margin-top: 50px;
+    width: 120px;
+    height: 35px;
+    background-color: white;
+    border-radius: 8px;
+    font-family: "Karla";
+    border-width: 1.5px;
+}
+.center{
+    
+    margin-left: 40%;
+    margin-bottom: 50px;
+}
+.forthsection h1{
+ margin-top: 0;
+ padding-top: 70px;
+ font-family:"Cormorant Infant" ;
+    text-align: center;
+    font-size: 70px;
+}
+.forthsection p{
+ font-family: "Karla";
+}
+.forthsection{
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+
+}
+.forthsection button{
+    background-color: #fbde7c;
+    border: none;
+    height: 50px;
+    width: 130px;
+    border-radius: 25px;
+    font-family: "Karla";
+    
+    margin: 50px;
+}
+footer{
+    background-color: #352b2a;
+}
+footer p{
+    color: white;
+    margin-left: 120px;
+    width: 30%;
+    font-size: 18px;
+    font-family: "Karla";
+}
+footer img{
+    margin-top: 50px;
+    margin-left:120px ;
+    width: 80px;
+}
+.allrightsreserved{
+    color: #5d4c46;
+    margin-left:120px ;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+    font-family: "Karla";
+}
